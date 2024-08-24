@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "VipulChandra_[BD1.4_CW]/index.js",
+      "src": "index.js",
       "use": "@vercel/node"
     }
   ],
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "VipulChandra_[BD1.4_CW]/index.js"
+      "destination": "/index.js"
     }
   ]
 }
